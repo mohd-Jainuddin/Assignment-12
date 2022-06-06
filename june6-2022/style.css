@@ -1,0 +1,168 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* NAV BAR STYLING */
+
+.nav {
+    display: grid;
+    background-color: black;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto auto;
+    color: white;
+}
+
+/* NAV LEFT PART */
+
+.left {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.left img {
+    height: 80px;
+    margin-top: 30px;
+}
+
+.left .loc {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+/* NAV CENTER PART */
+
+.center {
+    margin-top: 20px;
+}
+
+.center #all {
+    padding: 20px;
+    width: 80px;
+}
+
+.center #input {
+    width: 700px;
+    padding: 20px;
+}
+
+.center .search {
+    padding: 15px;
+    background-color: lightgoldenrodyellow;
+    font-size: 20px;
+}
+
+/* NAV RIGHT PART */
+
+.right {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 25px;
+}
+
+.right .cart {
+    font-size: 40px;
+}
+
+/* SECTION-1 NAV-2 START */
+
+main .section-1 {
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+    grid-column: -1;
+    background-color: rgba(0, 0, 0, 0.685);
+    color: white;
+}
+
+.nav-2 ul {
+    display: grid;
+    grid-template-columns: repeat(6, max-content);
+    list-style-type: none;
+    column-gap: 40px;
+    font-size: 30px;
+}
+
+/* SECTION-2 PART START */
+
+.section-2 img {
+    width: 100vw;
+}
+
+.section-2 p {
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* SECTION-3 START */
+
+.section-3 img {
+    width: 330px;
+    height: 350px;
+}
+
+.section-3 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 50px;
+}
+
+.section-3 h1 {
+    font-size: 40px;
+}
+
+.section-3 a {
+    text-decoration: none;
+    font-size: 30px;
+
+}
+
+.section-3 .box {
+    border: 1px solid white;
+    padding: 20px;
+    background-color: beige;
+}
+
+/* SECTION-4 START */
+
+.section-4 {
+    padding: 30px;
+    background-color: beige;
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+.section-4 img {
+    margin-top: 30px;
+    width: 320px;
+    height: 300px;
+}
+
+.section-4 .box1 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+/* SECTION-5 START */
+
+.section-5 {
+    padding: 30px;
+    background-color: beige;
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+.section-5 img {
+    margin-top: 30px;
+    width: 320px;
+    height: 300px;
+}
+
+.section-5 .box1 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
